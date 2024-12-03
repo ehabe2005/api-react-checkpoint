@@ -1,0 +1,40 @@
+/* UserList.css */
+.user-list-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.user-list {
+    display: flex;
+    flex-wrap: wrap; /* Permette alle card di andare a capo */
+    gap: 20px; /* Spazio tra le card */
+    list-style: none; /* Rimuove i punti elenco */
+    padding: 0;
+    margin: 0;
+}
+
+.user-list li {
+    display: flex; /* Assicura che ogni elemento sia trattato come un contenitore */
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 180px; /* Larghezza fissa per ogni card */
+    padding: 20px;
+    text-align: center;
+}
+
+.username {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.email {
+    font-size: 1em;
+    color: #777;
+}
